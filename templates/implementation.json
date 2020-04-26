@@ -1,0 +1,15 @@
+{
+  "type": "implementation",
+  "short-name":"%name",
+  "description":"%description",
+  "language":"%language",
+  "core-source-files":[
+    // %core_files
+  ],
+  "runner-source-file": { "file":"./runner.%language"},
+  "runner-arguments": // %runner-arguments 
+  ,
+  "include-directories":[
+    // %libs
+  ]
+}

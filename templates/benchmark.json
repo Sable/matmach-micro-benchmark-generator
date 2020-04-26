@@ -1,0 +1,17 @@
+{
+  "type": "benchmark",
+  "name":"%name",
+  "short-name":"%name",
+  "description":"%description",
+  "version":"1.0.0",
+  "input-size":{
+    "small":%small,
+    "medium":%medium,
+    "large": %large
+  },
+  "expected-output": {
+    "small": %small_output,
+    "medium": %medium_output,
+    "large": %large_output
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "experiment",
+  "short-name": "matmachjs",
+  "iteration-number": 10,
+  "input-size":"medium",
+  "configuration": {
+    "benchmarks": ["rand","ones","eye","zeros"],
+    "compilers": ["identity-py","identity-js"],
+    "environments":["node","python"]
+  }
+}
